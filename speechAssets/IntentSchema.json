@@ -1,0 +1,31 @@
+{"intents": [{
+    "intent": "DirectionIntent",
+        "slots": [{
+            "name": "StartLoc",
+            "type": "LOC_STRING"
+            },{
+            "name": "EndLoc",
+            "type": "LOC_STRING"
+            },{
+            "name": "RouteMode",
+            "type": "ROUTE_MODE"
+            } ]
+    },{
+    "intent": "DefineLocIntent",
+        "slots": [{
+            "name": "Loc",
+            "type": "LOC_STRING"
+            } ]
+    },{
+    "intent": "SwapModeIntent",
+        "slots": [{
+            "name": "RouteMode",
+            "type": "ROUTE_MODE"
+            } ]
+    },
+    {"intent": "AMAZON.RepeatIntent"},
+    {"intent": "AMAZON.HelpIntent"},
+    {"intent": "AMAZON.StopIntent"},
+    {"intent": "AMAZON.CancelIntent"}
+  ]
+}

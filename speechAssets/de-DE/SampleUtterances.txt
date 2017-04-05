@@ -1,0 +1,395 @@
+DefineLocIntent   {Loc}
+
+SwapModeIntent    und {RouteMode}
+SwapModeIntent    und wie sieht es {RouteMode} aus
+SwapModeIntent    und wie schnell ist es {RouteMode}
+SwapModeIntent    und wie weit ist es {RouteMode}
+SwapModeIntent    {RouteMode}
+SwapModeIntent    wie sieht es {RouteMode} aus
+SwapModeIntent    wie schnell ist es {RouteMode}
+SwapModeIntent    wie weit ist es {RouteMode}
+
+DirectionIntent   wie schnell komme ich von {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich von {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich von {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es von {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich vom {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich vom {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich vom {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es vom {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich von der {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich von der {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich von der {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es von der {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich aus der {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich aus der {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich aus der {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es aus der {StartLoc} nach {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich von {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich von {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich von {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es von {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich vom {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich vom {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich vom {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es vom {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich von der {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich von der {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich von der {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es von der {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich aus der {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich aus der {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich aus der {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es aus der {StartLoc} zur {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich von {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich von {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich von {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es von {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich vom {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich vom {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich vom {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es vom {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich von der {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich von der {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich von der {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es von der {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich aus der {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich aus der {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich aus der {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es aus der {StartLoc} in die {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich von {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich von {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich von {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es von {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich vom {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich vom {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich vom {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es vom {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich von der {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich von der {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich von der {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es von der {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich aus der {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich aus der {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich aus der {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es aus der {StartLoc} zum {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich von {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich von {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich von {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es von {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich vom {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich vom {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich vom {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es vom {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich von der {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich von der {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich von der {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es von der {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich aus der {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich aus der {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich aus der {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es aus der {StartLoc} ins {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich von {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich von {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich von {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es von {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich vom {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich vom {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich vom {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es vom {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich von der {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich von der {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich von der {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es von der {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich aus der {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie komme ich aus der {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie lange brauche ich aus der {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie weit ist es aus der {StartLoc} in das {EndLoc} {RouteMode}
+DirectionIntent   wie schnell komme ich {RouteMode} von {StartLoc} nach {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} von {StartLoc} nach {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} von {StartLoc} nach {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} von {StartLoc} nach {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} vom {StartLoc} nach {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} vom {StartLoc} nach {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} vom {StartLoc} nach {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} vom {StartLoc} nach {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} von der {StartLoc} nach {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} von der {StartLoc} nach {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} von der {StartLoc} nach {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} von der {StartLoc} nach {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} aus der {StartLoc} nach {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} aus der {StartLoc} nach {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} aus der {StartLoc} nach {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} aus der {StartLoc} nach {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} von {StartLoc} zur {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} von {StartLoc} zur {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} von {StartLoc} zur {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} von {StartLoc} zur {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} vom {StartLoc} zur {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} vom {StartLoc} zur {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} vom {StartLoc} zur {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} vom {StartLoc} zur {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} von der {StartLoc} zur {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} von der {StartLoc} zur {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} von der {StartLoc} zur {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} von der {StartLoc} zur {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} aus der {StartLoc} zur {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} aus der {StartLoc} zur {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} aus der {StartLoc} zur {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} aus der {StartLoc} zur {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} von {StartLoc} in die {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} von {StartLoc} in die {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} von {StartLoc} in die {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} von {StartLoc} in die {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} vom {StartLoc} in die {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} vom {StartLoc} in die {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} vom {StartLoc} in die {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} vom {StartLoc} in die {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} von der {StartLoc} in die {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} von der {StartLoc} in die {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} von der {StartLoc} in die {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} von der {StartLoc} in die {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} aus der {StartLoc} in die {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} aus der {StartLoc} in die {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} aus der {StartLoc} in die {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} aus der {StartLoc} in die {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} von {StartLoc} zum {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} von {StartLoc} zum {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} von {StartLoc} zum {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} von {StartLoc} zum {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} vom {StartLoc} zum {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} vom {StartLoc} zum {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} vom {StartLoc} zum {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} vom {StartLoc} zum {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} von der {StartLoc} zum {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} von der {StartLoc} zum {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} von der {StartLoc} zum {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} von der {StartLoc} zum {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} aus der {StartLoc} zum {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} aus der {StartLoc} zum {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} aus der {StartLoc} zum {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} aus der {StartLoc} zum {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} von {StartLoc} ins {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} von {StartLoc} ins {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} von {StartLoc} ins {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} von {StartLoc} ins {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} vom {StartLoc} ins {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} vom {StartLoc} ins {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} vom {StartLoc} ins {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} vom {StartLoc} ins {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} von der {StartLoc} ins {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} von der {StartLoc} ins {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} von der {StartLoc} ins {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} von der {StartLoc} ins {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} aus der {StartLoc} ins {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} aus der {StartLoc} ins {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} aus der {StartLoc} ins {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} aus der {StartLoc} ins {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} von {StartLoc} in das {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} von {StartLoc} in das {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} von {StartLoc} in das {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} von {StartLoc} in das {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} vom {StartLoc} in das {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} vom {StartLoc} in das {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} vom {StartLoc} in das {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} vom {StartLoc} in das {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} von der {StartLoc} in das {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} von der {StartLoc} in das {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} von der {StartLoc} in das {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} von der {StartLoc} in das {EndLoc}
+DirectionIntent   wie schnell komme ich {RouteMode} aus der {StartLoc} in das {EndLoc}
+DirectionIntent   wie komme ich {RouteMode} aus der {StartLoc} in das {EndLoc}
+DirectionIntent   wie lange brauche ich {RouteMode} aus der {StartLoc} in das {EndLoc}
+DirectionIntent   wie weit ist es {RouteMode} aus der {StartLoc} in das {EndLoc}
+DirectionIntent   wie schnell ich von {StartLoc} nach {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich von {StartLoc} nach {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich vom {StartLoc} nach {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich vom {StartLoc} nach {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich von der {StartLoc} nach {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich von der {StartLoc} nach {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich aus der {StartLoc} nach {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich aus der {StartLoc} nach {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich von {StartLoc} zur {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich von {StartLoc} zur {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich vom {StartLoc} zur {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich vom {StartLoc} zur {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich von der {StartLoc} zur {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich von der {StartLoc} zur {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich aus der {StartLoc} zur {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich aus der {StartLoc} zur {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich von {StartLoc} in die {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich von {StartLoc} in die {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich vom {StartLoc} in die {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich vom {StartLoc} in die {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich von der {StartLoc} in die {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich von der {StartLoc} in die {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich aus der {StartLoc} in die {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich aus der {StartLoc} in die {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich von {StartLoc} zum {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich von {StartLoc} zum {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich vom {StartLoc} zum {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich vom {StartLoc} zum {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich von der {StartLoc} zum {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich von der {StartLoc} zum {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich aus der {StartLoc} zum {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich aus der {StartLoc} zum {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich von {StartLoc} ins {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich von {StartLoc} ins {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich vom {StartLoc} ins {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich vom {StartLoc} ins {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich von der {StartLoc} ins {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich von der {StartLoc} ins {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich aus der {StartLoc} ins {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich aus der {StartLoc} ins {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich von {StartLoc} in das {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich von {StartLoc} in das {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich vom {StartLoc} in das {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich vom {StartLoc} in das {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich von der {StartLoc} in das {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich von der {StartLoc} in das {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich aus der {StartLoc} in das {EndLoc} {RouteMode} komme
+DirectionIntent   wie ich aus der {StartLoc} in das {EndLoc} {RouteMode} komme
+DirectionIntent   wie schnell ich {RouteMode} von {StartLoc} nach {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} von {StartLoc} nach {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} vom {StartLoc} nach {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} vom {StartLoc} nach {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} von der {StartLoc} nach {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} von der {StartLoc} nach {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} aus der {StartLoc} nach {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} aus der {StartLoc} nach {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} von {StartLoc} zur {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} von {StartLoc} zur {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} vom {StartLoc} zur {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} vom {StartLoc} zur {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} von der {StartLoc} zur {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} von der {StartLoc} zur {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} aus der {StartLoc} zur {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} aus der {StartLoc} zur {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} von {StartLoc} in die {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} von {StartLoc} in die {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} vom {StartLoc} in die {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} vom {StartLoc} in die {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} von der {StartLoc} in die {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} von der {StartLoc} in die {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} aus der {StartLoc} in die {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} aus der {StartLoc} in die {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} von {StartLoc} zum {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} von {StartLoc} zum {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} vom {StartLoc} zum {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} vom {StartLoc} zum {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} von der {StartLoc} zum {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} von der {StartLoc} zum {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} aus der {StartLoc} zum {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} aus der {StartLoc} zum {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} von {StartLoc} ins {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} von {StartLoc} ins {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} vom {StartLoc} ins {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} vom {StartLoc} ins {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} von der {StartLoc} ins {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} von der {StartLoc} ins {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} aus der {StartLoc} ins {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} aus der {StartLoc} ins {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} von {StartLoc} in das {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} von {StartLoc} in das {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} vom {StartLoc} in das {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} vom {StartLoc} in das {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} von der {StartLoc} in das {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} von der {StartLoc} in das {EndLoc} komme
+DirectionIntent   wie schnell ich {RouteMode} aus der {StartLoc} in das {EndLoc} komme
+DirectionIntent   wie ich {RouteMode} aus der {StartLoc} in das {EndLoc} komme
+DirectionIntent   wie weit es von {StartLoc} nach {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es vom {StartLoc} nach {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es von der {StartLoc} nach {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es aus der {StartLoc} nach {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es von {StartLoc} zur {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es vom {StartLoc} zur {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es von der {StartLoc} zur {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es aus der {StartLoc} zur {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es von {StartLoc} in die {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es vom {StartLoc} in die {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es von der {StartLoc} in die {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es aus der {StartLoc} in die {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es von {StartLoc} zum {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es vom {StartLoc} zum {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es von der {StartLoc} zum {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es aus der {StartLoc} zum {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es von {StartLoc} ins {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es vom {StartLoc} ins {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es von der {StartLoc} ins {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es aus der {StartLoc} ins {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es von {StartLoc} in das {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es vom {StartLoc} in das {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es von der {StartLoc} in das {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es aus der {StartLoc} in das {EndLoc} {RouteMode} ist
+DirectionIntent   wie weit es {RouteMode} von {StartLoc} nach {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} vom {StartLoc} nach {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} von der {StartLoc} nach {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} aus der {StartLoc} nach {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} von {StartLoc} zur {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} vom {StartLoc} zur {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} von der {StartLoc} zur {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} aus der {StartLoc} zur {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} von {StartLoc} in die {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} vom {StartLoc} in die {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} von der {StartLoc} in die {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} aus der {StartLoc} in die {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} von {StartLoc} zum {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} vom {StartLoc} zum {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} von der {StartLoc} zum {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} aus der {StartLoc} zum {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} von {StartLoc} ins {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} vom {StartLoc} ins {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} von der {StartLoc} ins {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} aus der {StartLoc} ins {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} von {StartLoc} in das {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} vom {StartLoc} in das {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} von der {StartLoc} in das {EndLoc} ist
+DirectionIntent   wie weit es {RouteMode} aus der {StartLoc} in das {EndLoc} ist
+DirectionIntent   wie lange ich von {StartLoc} nach {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich vom {StartLoc} nach {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich von der {StartLoc} nach {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich aus der {StartLoc} nach {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich von {StartLoc} zur {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich vom {StartLoc} zur {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich von der {StartLoc} zur {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich aus der {StartLoc} zur {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich von {StartLoc} in die {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich vom {StartLoc} in die {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich von der {StartLoc} in die {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich aus der {StartLoc} in die {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich von {StartLoc} zum {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich vom {StartLoc} zum {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich von der {StartLoc} zum {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich aus der {StartLoc} zum {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich von {StartLoc} ins {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich vom {StartLoc} ins {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich von der {StartLoc} ins {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich aus der {StartLoc} ins {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich von {StartLoc} in das {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich vom {StartLoc} in das {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich von der {StartLoc} in das {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich aus der {StartLoc} in das {EndLoc} {RouteMode} brauche
+DirectionIntent   wie lange ich {RouteMode} von {StartLoc} nach {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} vom {StartLoc} nach {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} von der {StartLoc} nach {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} aus der {StartLoc} nach {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} von {StartLoc} zur {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} vom {StartLoc} zur {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} von der {StartLoc} zur {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} aus der {StartLoc} zur {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} von {StartLoc} in die {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} vom {StartLoc} in die {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} von der {StartLoc} in die {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} aus der {StartLoc} in die {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} von {StartLoc} zum {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} vom {StartLoc} zum {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} von der {StartLoc} zum {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} aus der {StartLoc} zum {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} von {StartLoc} ins {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} vom {StartLoc} ins {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} von der {StartLoc} ins {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} aus der {StartLoc} ins {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} von {StartLoc} in das {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} vom {StartLoc} in das {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} von der {StartLoc} in das {EndLoc} brauche
+DirectionIntent   wie lange ich {RouteMode} aus der {StartLoc} in das {EndLoc} brauche

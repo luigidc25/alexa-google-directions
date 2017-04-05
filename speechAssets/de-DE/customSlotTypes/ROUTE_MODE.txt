@@ -1,0 +1,18 @@
+zu fuß
+als fußgänger
+mit dem fahrrad
+mit dem rad
+mit dem auto
+mit dem bus
+mit der bahn
+mit den öffentlichen
+mit den öffentlichen verkehrsmitteln
+fuß
+fahrrad
+rad
+fußgänger
+auto
+bus
+bahn
+öffentlichen
+öffentlichen verkehrsmitteln

@@ -1,0 +1,31 @@
+{
+  "name": "alexa-google-directions",
+  "version": "1.0.0",
+  "description": "Route informations based on Google Directions API",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.7",
+    "dotenv": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luigidc25/alexa-google-directions.git"
+  },
+  "keywords": [
+    "alexa",
+    "echo",
+    "google",
+    "maps",
+    "directions"
+  ],
+  "author": "luigidc25",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luigidc25/alexa-google-directions/issues"
+  },
+  "homepage": "https://github.com/luigidc25/alexa-google-directions#readme"
+}
