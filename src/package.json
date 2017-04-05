@@ -1,7 +1,7 @@
 {
   "name": "alexa-google-directions",
   "version": "1.0.0",
-  "description": "Route informations based on Google Directions API",
+  "description": "Route information based on Google Directions API",
   "main": "index.js",
   "dependencies": {
     "alexa-sdk": "^1.0.7",
