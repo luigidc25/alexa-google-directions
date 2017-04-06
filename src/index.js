@@ -22,9 +22,10 @@ var states = {
 };
 
 var newSessionHandlers = {
-    'LaunchIntent': function () {
+    'LaunchRequest': function () {
         this.attributes['speechOutput'] = this.t("WELCOME_MESSAGE", this.t("SKILL_NAME"));
         this.attributes['repromptSpeech'] = this.t("WELCOME_REPROMPT");
+        console.log(this.attributes['speechOutput']);
         this.emit(':ask', this.attributes['speechOutput'], this.attributes['repromptSpeech'])
     },
     'DirectionIntent': function () {
@@ -70,6 +71,7 @@ var newSessionHandlers = {
         this.emit(':tell', this.t("STOP_MESSAGE"));
     },
     'Unhandled': function () {
+        console.log("UNHANDLED");
         this.attributes['speechOutput'] = this.t("HELP_MESSAGE");
         this.attributes['repromptSpeech'] = this.t("HELP_MESSAGE");
         this.emit(':ask', this.attributes['speechOutput'], this.attributes['repromptSpeech'])
@@ -103,6 +105,7 @@ var routeFoundHandlers = Alexa.CreateStateHandler(states.ROUTEFOUND, {
           this.emit(':tell', this.t("STOP_MESSAGE"));
       },
       'Unhandled': function () {
+          console.log("UNHANDLED");
           this.attributes['speechOutput'] = this.t("HELP_MESSAGE");
           this.attributes['repromptSpeech'] = this.t("HELP_MESSAGE");
           this.emit(':ask', this.attributes['speechOutput'], this.attributes['repromptSpeech'])
@@ -136,6 +139,7 @@ var startNotFoundHandlers = Alexa.CreateStateHandler(states.STARTNOTFOUND, {
           this.emit(':tell', this.t("STOP_MESSAGE"));
       },
       'Unhandled': function () {
+          console.log("UNHANDLED");
           this.attributes['speechOutput'] = this.t("HELP_MESSAGE");
           this.attributes['repromptSpeech'] = this.t("HELP_MESSAGE");
           this.emit(':ask', this.attributes['speechOutput'], this.attributes['repromptSpeech'])
@@ -169,6 +173,7 @@ var endNotFoundHandlers = Alexa.CreateStateHandler(states.ENDNOTFOUND, {
           this.emit(':tell', this.t("STOP_MESSAGE"));
       },
       'Unhandled': function () {
+          console.log("UNHANDLED");
           this.attributes['speechOutput'] = this.t("HELP_MESSAGE");
           this.attributes['repromptSpeech'] = this.t("HELP_MESSAGE");
           this.emit(':ask', this.attributes['speechOutput'], this.attributes['repromptSpeech'])
