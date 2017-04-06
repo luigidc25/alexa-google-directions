@@ -22,14 +22,10 @@ var states = {
 };
 
 var newSessionHandlers = {
-
-    'NewSession': function (){
-      var speechOutput = this.t("WELCOME_MESSAGE", this.t("SKILL_NAME"));
-      var repromptSpeech = this.t("WELCOME_REPROMPT");
-      this.attributes['speechOutput'] = speechOutput;
-      this.attributes['repromptSpeech'] = repromptSpeech;
-      console.log(speechOutput);
-      this.emit(':ask', speechOutput, repromptSpeech);
+    'LaunchIntent': function () {
+        this.attributes['speechOutput'] = this.t("WELCOME_MESSAGE", this.t("SKILL_NAME"));
+        this.attributes['repromptSpeech'] = this.t("WELCOME_REPROMPT");
+        this.emit(':ask', this.attributes['speechOutput'], this.attributes['repromptSpeech'])
     },
     'DirectionIntent': function () {
 
@@ -241,7 +237,7 @@ var findRouteHandlers = {
                   }
                   else
                   {
-                    console.log("Find: "+response.json.routes[0].legs[0].distance.text);
+                    console.log("find: "+response.json.routes[0].legs[0].distance.text);
 
                     var cardTitle = self.t("DISPLAY_CARD_TITLE", self.t("SKILL_NAME"), route.getStart("OUTPUT") + " (" + route.getStart("DETAILS")+")", route.getEnd("OUTPUT") + " (" + route.getEnd("DETAILS")+")", route.getMode("OUTPUT"));
 

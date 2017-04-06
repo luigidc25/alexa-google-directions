@@ -202,7 +202,6 @@ GoogleRoute.prototype.find = function (callback) {
   mapsClient.directions(routedef, function(err, response){
     if(!err && response.json.status == "OK")
     {
-      console.log("Route:" + JSON.stringify(response.json.routes[0]));
       var distanceTxt;
       if(response.json.routes[0].legs[0].distance.text.indexOf("0,") == 0 || response.json.routes[0].legs[0].distance.text.indexOf("0.") == 0)
         distanceTxt = response.json.routes[0].legs[0].distance.value + " " + self.t("deci_only_unit");
@@ -236,10 +235,10 @@ GoogleRoute.prototype.find = function (callback) {
       self.direction["SPEECH"] = self.t("DIRECTION_TEXT", self.start["OUTPUT_SPEECH"],
                               self.end["OUTPUT_SPEECH"], self.mode["OUTPUT"], distanceSpeech, durationSpeech);
 
-      console.log("Text: " + durationTxt);
-      console.log("Speech: " + durationSpeech);
-      console.log("Text: " + distanceTxt);
-      console.log("Speech: " + distanceSpeech);
+      console.log(durationTxt);
+      console.log(durationSpeech);
+      console.log(distanceTxt);
+      console.log(distanceSpeech);
     }
     callback(err, response);
   });
